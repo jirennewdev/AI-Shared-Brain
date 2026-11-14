@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "40d1a8b85a9da839",
+    "id": "157190cdfcdadb34",
     "type": "split",
     "children": [
       {
-        "id": "c8f76c2fb7f9d822",
+        "id": "85484663a6d6b8bf",
         "type": "tabs",
         "children": [
           {
-            "id": "7fe8e1fe5868f5b9",
+            "id": "200a2890d98fff83",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bca81f8b555e224f",
+    "id": "7ee15b88003ca356",
     "type": "split",
     "children": [
       {
-        "id": "3013638f228a8f2b",
+        "id": "dbf60e9727c17333",
         "type": "tabs",
         "children": [
           {
-            "id": "2f3204134b04d1f9",
+            "id": "64bf13198ddb8c70",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +46,7 @@
             }
           },
           {
-            "id": "9dca2d75bed16f01",
+            "id": "8414394d5befa542",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,7 +63,7 @@
             }
           },
           {
-            "id": "d87239d695723920",
+            "id": "eb32e6e74f80be87",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,23 +75,23 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
-    "id": "095de4cf0e74dc36",
+    "id": "3ca1011d7d1d4583",
     "type": "split",
     "children": [
       {
-        "id": "fe550e9d45ea966e",
+        "id": "16db9dd438f82a0a",
         "type": "tabs",
         "children": [
           {
-            "id": "11c4e0adcf6d138d",
+            "id": "d529d6992968bea1",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "b0783b097320b69a",
+            "id": "eb0dbb7d23582ad3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -118,11 +118,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liên kết đi ra"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "a4876f554325c69e",
+            "id": "06043a1d12958e07",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Thẻ"
+              "title": "Tags"
             }
           },
           {
-            "id": "67ff615d166aa4ac",
+            "id": "b401dbabf5af1908",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,11 +147,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Tất cả thuộc tính"
+              "title": "All properties"
             }
           },
           {
-            "id": "5f879defcb2e375f",
+            "id": "1ca86e23138eb3ce",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -161,14 +161,15 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Đề cương"
+              "title": "Outline"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,13 +179,47 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7fe8e1fe5868f5b9",
+  "active": "200a2890d98fff83",
   "lastOpenFiles": [
+    "tạo một liên kết.md",
+    "README.md",
     "Chào mừng.md",
-    "Chưa đặt tên.md",
-    "tạo một liên kết.md"
+    "03_AI_WORKSPACE/GEMINI",
+    "03_AI_WORKSPACE/CLAUDE",
+    "03_AI_WORKSPACE/CHATGPT",
+    "04_TASKS/TASK_BOARD.md/TASK BOARD — AI SHARED BRAIN.md",
+    "00_SYSTEM/AI_ROLES.md/AI ROLES — AI SHARED BRAIN.md",
+    "04_TASKS/TASK_BOARD.md",
+    "00_SYSTEM/MASTER_INDEX.md/MASTER INDEX — AI SHARED BRAIN.md",
+    "01_PROJECTS/PLUS_ONE_EVOLUTION/PROJECT_HUB.md/PROJECT HUB — PLUS ONE EVOLUTION.md",
+    "01_PROJECTS/PLUS_ONE_EVOLUTION/PROJECT_HUB.md",
+    "01_PROJECTS/PLUS_ONE_EVOLUTION",
+    "00_SYSTEM/AI_GLOBAL_INSTRUCTIONS.md/AI GLOBAL INSTRUCTIONS.md",
+    "03_Tasks/SYS-001_FixMovement_And_CleanVirus.md",
+    "00_SYSTEM/AI_ROLES.md",
+    "00_SYSTEM/MASTER_INDEX.md",
+    "00_SYSTEM/AI_GLOBAL_INSTRUCTIONS.md",
+    "05_ARCHIVE",
+    "04_TASKS",
+    "03_AI_WORKSPACE",
+    "02_SHARED_KNOWLEDGE",
+    "01_PROJECTS",
+    "00_SYSTEM",
+    "01_AI_AGENTS/Agent_Claude.md",
+    "05_Handoff_Archive/2026-11-13_Session01.md",
+    "01_AI_AGENTS/Agent_Gemini.md",
+    "Model_Lion.md/Model.md",
+    "02_GAME_DESIGN/UNDECIDED_FEATURES.md",
+    "02_GAME_DESIGN/MULTIPLAYER_SYSTEM.md",
+    "02_GAME_DESIGN/LOOT_SYSTEM.md",
+    "02_GAME_DESIGN/COMBAT_SYSTEM.md",
+    "02_GAME_DESIGN/MONSTER_SYSTEM.md",
+    "02_GAME_DESIGN/STAGE_SYSTEM.md",
+    "02_GAME_DESIGN/GAMEPLAY_SYSTEMS.md",
+    "02_GAME_DESIGN/MASTER_GAME_DESIGN.md"
   ]
 }
