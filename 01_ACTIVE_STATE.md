@@ -1,28 +1,23 @@
-# TRẠNG THÁI DỰ ÁN HIỆN TẠI (TRẠM TRUNG CHUYỂN)
+# TRẠNG THÁI DỰ ÁN HIỆN TẠI
 
-- **Dự án hiện tại:** Space moster (`Space moster.rbxl` - Roblox Studio)
-- **AI vừa làm việc:** [[Agent_Gemini]]
-- **AI tiếp theo sẵn sàng tiếp quản:** [[Agent_Claude]] / [[Agent_ChatGPT]] / [[Agent_Cursor]]
-- **Luật chung & Quy chuẩn:** [[00_SYSTEM_PROMPT]] | [[02_DECISION_LOG]]
+- **Dự án duy nhất đang hoạt động:** PLUS ONE EVOLUTION (+1)
+- **Nền tảng:** Roblox
+- **Thể loại:** Evolution / Incremental Simulator
+- **Quản lý dự án:** Người dùng
+- **Project Hub:** [[PROJECT HUB — PLUS ONE EVOLUTION]]
+- **Quy tắc chung:** [[00_SYSTEM_PROMPT]] | [[02_DECISION_LOG]]
 
-## 1. Tổng quan & Kiến trúc Map đã xây dựng (3 Biomes)
-- **Phong cách:** Low-poly / Stud cổ điển, thiết kế theo tuyến đường thẳng nối tiếp từ khu khởi đầu đến khu vực cấp cao:
-  1. **Biome 1 (Đồng cỏ / Rừng khởi đầu):** Nền cỏ xanh, cây cối low-poly làm khu vực Spawn và tân thủ.
-  2. **Biome 2 (Làng Tuyết / Băng giá):** Nền tuyết trắng rộng ở giữa, hai bên vách đá bố trí nhà gỗ mái tuyết và cây thông trang trí.
-  3. **Biome 3 (Núi Lửa / Dung nham):** Nền đất đỏ/nâu, điểm nhấn là cổng hang đầu quái vật khổng lồ bằng đá đen phát sáng dung nham bên trong (khu vực Boss / Dungeon / Rebirth).
-- **Hệ thống UI & Script hiện có trong Explorer:**
-  - Giao diện đã có sẵn các mục: `SystemMessage`, `Teleport`, `Teleport2`, `Trails` (kèm `Header`, `Container`, `Texture`, `Effect`).
-  - Script đang mở: `CharacterUnlockGuard` và `LocalScript`.
+## 1. Phạm vi hiện tại
+Toàn bộ AI trong AI Shared Brain chỉ được xem PLUS ONE EVOLUTION (+1) là dự án đang hoạt động. Không tiếp tục lập kế hoạch, giao task hoặc đề xuất triển khai cho Space Monster hay UPGRADE A UFO.
 
-## 2. Việc đang làm dở (In Progress)
-- Hoàn thiện phần chuyển tiếp không gian giữa 3 biome (ranh giới giữa nền đất nâu, tuyết và núi lửa).
-- Kiểm tra và đảm bảo script `CharacterUnlockGuard` không gây xung đột khóa điều khiển nhân vật khi vào game.
+## 2. Trạng thái phát triển
+Theo Project Hub, các hệ thống vẫn đang ở giai đoạn Planning/Pending. Không tự suy đoán tiến độ hoặc coi một hệ thống là hoàn thành nếu chưa có báo cáo hay bằng chứng trong tài liệu dự án.
 
-## 3. Việc cần làm tiếp theo ngay lập tức (Next Steps)
-1. Quyết định mở rộng thêm **Biome 4 (Không gian / Vũ trụ - Space)** hoặc chốt 3 biome hiện tại để bắt đầu lập trình gameplay chính.
-2. Code chức năng cho các UI đã dựng sẵn trong Explorer (`Teleport`, `Teleport2` để dịch chuyển nhanh giữa các biome và `Trails` trang bị hiệu ứng cho nhân vật).
-3. Thiết kế hệ thống quái vật (Space Monsters), cơ chế thu thập/chiến đấu và lưu dữ liệu (`DataStoreService`).
+## 3. Quy tắc cập nhật
+1. Đọc Project Hub và Task Board trước khi nhận việc.
+2. Chỉ cập nhật tiến độ khi có kết quả thực tế.
+3. Ghi rõ người/AI phụ trách, file đã thay đổi, trạng thái và bước tiếp theo.
+4. Nếu phát hiện tài liệu còn nhắc Space Monster hoặc UPGRADE A UFO như dự án hiện tại, hãy sửa thành PLUS ONE EVOLUTION hoặc báo người quản lý nếu đó là nội dung lịch sử cần giữ lại.
 
-## 4. Cảnh báo / Lỗi chưa giải quyết (Blockers)
-- **Cấm tuyệt đối:** Không cài thêm plugin miễn phí/không rõ nguồn gốc từ Toolbox để tránh virus chèn script khóa di chuyển.
-- Luôn kiểm tra cửa sổ Output sau khi thêm script mới từ `CharacterUnlockGuard`.
+## 4. Blockers
+Chưa có blocker nào được xác nhận trong tài liệu hiện tại.
