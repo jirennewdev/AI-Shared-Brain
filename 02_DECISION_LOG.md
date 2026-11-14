@@ -1,15 +1,23 @@
 # NHẬT KÝ QUYẾT ĐỊNH & QUY CHUẨN KỸ THUẬT
 
-- **Liên kết hệ thống:** [[00_SYSTEM_PROMPT]] | [[01_ACTIVE_STATE]]
-- **Áp dụng cho toàn bộ Agents:** [[Agent_Gemini]], [[Agent_Claude]], [[Agent_ChatGPT]], [[Agent_Cursor]]
+- **Dự án đang hoạt động:** PLUS ONE EVOLUTION (+1)
+- **Project Hub:** [[PROJECT HUB — PLUS ONE EVOLUTION]]
+- **Trạng thái hiện tại:** [[01_ACTIVE_STATE]]
 
-> **Lưu ý phạm vi:** Mục 2 bên dưới là các quy chuẩn cũ của dự án UPGRADE A UFO. Theo ACTIVE_STATE hiện tại, dự án đang được ghi nhận là Space moster. Không áp dụng các chỉ số hoặc quyết định riêng của UPGRADE A UFO cho Space moster hay dự án khác nếu người quản lý chưa xác nhận. Khi có quyết định mới, ghi rõ tên dự án và ngày phê duyệt.
+## 1. Quyết định về phạm vi dự án
 
-## 1. Quy chuẩn Code
-- **Lua (Roblox Studio):** Viết gọn, tối ưu hiệu năng server/client, tách bạch `ServerScriptService` và `StarterPlayerScripts`/`StarterGui`.
-- **C++ (Thuật toán):** Viết ngắn gọn, trực tiếp, không hàm phụ thừa, không struct phức tạp, không comment rườm rà, dùng `ios_base::sync_with_stdio(false); cin.tie(NULL);`.
+### 2026-11-14 — Chỉ duy trì PLUS ONE EVOLUTION
+Người quản lý xác nhận PLUS ONE EVOLUTION (+1) là dự án đang phát triển. Space Monster và UPGRADE A UFO không còn thuộc phạm vi hoạt động của AI Shared Brain.
 
-## 2. Kiến trúc Dự án: UPGRADE A UFO (LEGACY — CHỈ ÁP DỤNG CHO DỰ ÁN NÀY)
-- **Leaderstats:** `Money` (khởi đầu `$1,000`, cộng mỗi giây), `Rebirth` (IntValue).
-- **Multiplier:** Friend Boost `+10%` mỗi bạn cùng server; Pet Income cộng dồn theo độ hiếm.
-- **UI:** Chữ tiền xanh lá viền đen (`UIStroke`); nút Shop/Rebirth dùng texture stud, bo góc, hiệu ứng Spring animation.
+- Không tạo task mới cho Space Monster hoặc UPGRADE A UFO.
+- Không sử dụng tiến độ, thiết kế, cơ chế hoặc quyết định riêng của hai dự án đó làm yêu cầu cho PLUS ONE EVOLUTION.
+- Tài liệu lịch sử cũ (nếu còn) chỉ được giữ để tham khảo lịch sử, không phải chỉ dẫn đang có hiệu lực.
+- Mọi AI phải ưu tiên Project Hub và ACTIVE_STATE mới nhất.
+
+## 2. Quy chuẩn kỹ thuật chung
+- **Roblox Lua:** Tách bạch logic server/client; đặt script đúng dịch vụ; ưu tiên code dễ bảo trì và có kiểm tra lỗi.
+- Không tự ý thêm plugin, asset hoặc script không rõ nguồn gốc.
+- Không ghi API key, token, mật khẩu hoặc thông tin đăng nhập vào repository.
+
+## 3. Quy trình phê duyệt
+Mọi thay đổi lớn về gameplay, kiến trúc, progression hoặc dữ liệu phải được người quản lý xác nhận trước khi xem là quyết định chính thức.
