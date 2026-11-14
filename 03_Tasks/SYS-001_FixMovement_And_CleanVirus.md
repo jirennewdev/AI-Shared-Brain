@@ -1,3 +1,5 @@
+> **LEGACY / ARCHIVED:** Đây là task cũ, chưa được xác nhận thuộc PLUS ONE EVOLUTION (+1). Không tiếp tục thực hiện hoặc xem là task đang hoạt động nếu người quản lý chưa giao lại rõ ràng.
+
 # TASK SYS-001: Dọn sạch Script ẩn Plugin & Khôi phục Di chuyển
 
 - **Trạng thái:** Đang thực hiện | **Báo cáo về:** [[01_ACTIVE_STATE]]
