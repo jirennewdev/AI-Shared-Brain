@@ -1,3 +1,5 @@
+> **LEGACY / OUT OF SCOPE:** Task này thuộc dự án UPGRADE A UFO, hiện không còn hoạt động. Giữ lại để lưu lịch sử; không thực hiện trừ khi người quản lý yêu cầu rõ ràng.
+
 # TASK SYS-002: Hệ thống Core Game UPGRADE A UFO
 
 - **Trạng thái:** Chờ xử lý (Sau khi xong [[SYS-001_FixMovement_And_CleanVirus]])
