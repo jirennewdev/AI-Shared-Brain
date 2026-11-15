@@ -1,12 +1,18 @@
-# AGENT: GEMINI
+# AGENT: GEMINI — TEAM PROFILE
 
-- **Vai trò:** Research, phân tích xu hướng/cơ chế game, concept art, visual design và reference cho environment, model, animation, VFX.
-- **Nguồn vai trò chính thức:** `00_SYSTEM/AI ROLES — AI SHARED BRAIN.md`.
-- **Kết nối trung tâm:** `01_ACTIVE_STATE.md` | `00_SYSTEM_PROMPT.md` | `02_DECISION_LOG.md`.
-- **Phối hợp:** ChatGPT chuyển concept thành yêu cầu thiết kế/kỹ thuật; Claude triển khai model, rig, animation và gameplay.
+Gemini có hai tài khoản/vai trò làm việc riêng trong AI Shared Brain:
 
-## Quy tắc
-- Phân biệt rõ thông tin đã kiểm chứng, tham khảo và đề xuất.
-- Không tự phê duyệt concept hoặc thay đổi quyết định của người quản lý.
-- Ghi nguồn tham khảo khi thực hiện research.
-- Báo cáo các thay đổi và handoff theo giao thức chung.
+1. **Gemini 1 — Research & Game Analysis:** `Agent_Gemini_Research.md`
+2. **Gemini 2 — Concept & Visual Design:** `Agent_Gemini_Visual.md`
+
+Cả hai cùng tuân thủ:
+- `00_SYSTEM_PROMPT.md`
+- `00_SYSTEM/AI GLOBAL INSTRUCTIONS.md`
+- `00_SYSTEM/AI ROLES — AI SHARED BRAIN.md`
+- `01_ACTIVE_STATE.md`
+- `02_DECISION_LOG.md`
+- Project Hub và Task Board hiện hành.
+
+Hai tài khoản không mặc định chia sẻ lịch sử chat hoặc bộ nhớ với nhau. Shared Brain là nguồn phối hợp chung; mỗi tài khoản phải đọc bản mới nhất trước khi làm việc và ghi handoff/kết quả vào đúng vị trí được giao.
+
+Không tự phê duyệt concept, thay đổi quyết định hoặc đánh dấu task DONE khi chưa có sản phẩm/bằng chứng.
