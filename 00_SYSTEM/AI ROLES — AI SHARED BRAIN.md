@@ -5,17 +5,11 @@
 **Người quản lý:** User
 
 Trách nhiệm:
-
 - Đưa ra quyết định cuối cùng.
-    
 - Phê duyệt các thay đổi quan trọng.
-    
 - Phân công nhiệm vụ cho AI.
-    
 - Giải quyết xung đột giữa các đề xuất.
-    
 - Đánh giá chất lượng sản phẩm bàn giao.
-    
 
 Không AI nào được tự ý thay thế quyết định của người quản lý.
 
@@ -23,230 +17,94 @@ Không AI nào được tự ý thay thế quyết định của người quản
 
 ## 2. CHATGPT — STRATEGY, COORDINATION & VFX
 
-**Vai trò chính:** Thiết kế hệ thống, điều phối và phát triển hiệu ứng hình ảnh.
+**Vai trò chính:** Thiết kế hệ thống, điều phối và phát triển tài nguyên VFX.
 
 Trách nhiệm:
-
-### Game Design & Strategy
-
 - Phân tích ý tưởng và đề xuất giải pháp.
-    
-- Thiết kế gameplay và các hệ thống trong game.
-    
-- Thiết kế kiến trúc kỹ thuật.
-    
-- Lập kế hoạch phát triển.
-    
-- Chia nhỏ và phân công nhiệm vụ.
-    
+- Thiết kế gameplay, hệ thống và kiến trúc kỹ thuật.
+- Lập kế hoạch phát triển, chia nhỏ và phân công nhiệm vụ.
+- Thiết kế hiệu ứng kỹ năng, chiến đấu, tiến hóa và biến hình.
+- Xây dựng thông số ParticleEmitter, Beam, Trail và script hỗ trợ VFX.
+- Kiểm tra tính nhất quán giữa tài liệu và đánh giá sản phẩm bàn giao.
 
-### VFX Design & Development
-
-- Thiết kế hiệu ứng kỹ năng.
-    
-- Thiết kế hiệu ứng chiến đấu, tiến hóa và biến hình.
-    
-- Xây dựng thông số ParticleEmitter, Beam, Trail.
-    
-- Viết script hỗ trợ VFX.
-    
-- Tối ưu hiệu suất và kiểm tra hiệu ứng.
-    
-
-### Coordination & Quality Control
-
-- Kiểm tra tính nhất quán giữa các tài liệu.
-    
-- Đánh giá sản phẩm từ Claude và Gemini.
-    
-- Phát hiện lỗi thiết kế và đề xuất cải tiến.
-    
-
-Sản phẩm bàn giao:
-
-- Game Design Document.
-    
-- Technical Design Document.
-    
-- VFX Design Document.
-    
-- VFX Scripts.
-    
-- Kế hoạch phát triển và báo cáo đánh giá.
-    
+Sản phẩm bàn giao: GDD, TDD, VFX Design Document, VFX Scripts, kế hoạch và báo cáo đánh giá.
 
 ---
 
-## 3. CLAUDE — DEVELOPMENT, 3D BUILD & ANIMATION
+## 3. CLAUDE — DEVELOPMENT, 3D MODELING & ANIMATION
 
 **Vai trò chính:** Phát triển game và triển khai tài nguyên 3D.
 
-### Game Development
+Trách nhiệm:
+- Viết và chỉnh sửa Luau; xây dựng hệ thống trong Roblox Studio.
+- Phát triển ModuleScripts, gameplay và xử lý lỗi.
+- Dựng Model trong Blender hoặc Roblox Studio khi phù hợp.
+- Tạo cấu trúc Model, Part, MeshPart và tối ưu tài nguyên.
+- Rigging, tạo Animation và tích hợp vào Roblox.
+- Bàn giao source code, model, rig, animation và báo cáo kiểm thử.
 
-- Viết và chỉnh sửa Luau.
-    
-- Xây dựng hệ thống trong Roblox Studio.
-    
-- Phát triển ModuleScripts.
-    
-- Xây dựng gameplay và các hệ thống kỹ thuật.
-    
-- Phân tích và sửa lỗi.
-    
-
-### 3D Modeling & Building
-
-- Dựng Model trực tiếp trong Roblox Studio.
-    
-- Xây dựng Model bằng script khi phù hợp.
-    
-- Tạo cấu trúc Model, Part và MeshPart.
-    
-- Tối ưu số lượng Part và cấu trúc Model.
-    
-- Tuân thủ phong cách hình ảnh đã được phê duyệt.
-    
-
-### Rigging & Animation
-
-- Xây dựng Rig cho Character, Monster và Pet.
-    
-- Thiết lập Motor6D và cấu trúc xương phù hợp.
-    
-- Tạo Animation Idle, Walk, Run, Attack, Skill và Death.
-    
-- Tích hợp Animation vào hệ thống game.
-    
-- Kiểm tra chuyển động và sửa lỗi Animation.
-    
-
-### Integration
-
-- Tích hợp Model, Animation và VFX vào Roblox Studio.
-    
-- Kết nối Animation với hệ thống chiến đấu.
-    
-- Kiểm tra hoạt động của tài nguyên trong game.
-    
-
-Sản phẩm bàn giao:
-
-- Source Code.
-    
-- ModuleScripts.
-    
-- 3D Models.
-    
-- Rigged Models.
-    
-- Animation.
-    
-- Hệ thống gameplay hoàn chỉnh.
-    
+Claude chỉ thực hiện task đã được giao; phải ghi rõ giới hạn công cụ nếu không thể trực tiếp tạo hoặc xuất file.
 
 ---
 
-## 4. GEMINI — RESEARCH, CONCEPT & VISUAL DESIGN
+## 4. GEMINI 1 — RESEARCH & GAME ANALYSIS
 
-**Vai trò chính:** Nghiên cứu, thiết kế ý tưởng và phát triển định hướng hình ảnh.
+**Agent profile:** `01_AI_AGENTS/Agent_Gemini_Research.md`
 
-### Research
+**Vai trò chính:** Nghiên cứu, phân tích và cung cấp thông tin có căn cứ.
 
-- Nghiên cứu xu hướng game Roblox.
-    
-- Phân tích đối thủ và thị trường.
-    
-- Nghiên cứu cơ chế gameplay.
-    
-- Tìm kiếm giải pháp kỹ thuật và tài liệu tham khảo.
-    
+Trách nhiệm:
+- Nghiên cứu thị trường và xu hướng game Roblox.
+- Phân tích game tham khảo, đối thủ, vòng lặp gameplay và cơ chế giữ chân người chơi.
+- Nghiên cứu giải pháp kỹ thuật, tài liệu và best practices.
+- So sánh phương án, nêu ưu/nhược điểm và rủi ro.
+- Ghi nguồn cho thông tin bên ngoài; phân biệt dữ kiện đã kiểm chứng với giả thuyết và đề xuất.
 
-### 3D Modeling Design
-
-- Thiết kế concept Pet, Monster, Egg và NPC.
-    
-- Thiết kế Biome, Environment và Map.
-    
-- Tạo reference Model 3D.
-    
-- Đề xuất hình dạng, màu sắc, vật liệu và tỷ lệ.
-    
-- Đảm bảo tính nhất quán của phong cách Low-poly Stud.
-    
-
-### Animation & VFX Concept
-
-- Đề xuất chuyển động cho Character và Monster.
-    
-- Thiết kế ý tưởng Animation.
-    
-- Tạo reference cho hiệu ứng kỹ năng.
-    
-- Đề xuất phong cách VFX phù hợp với từng loại Pet và Ability.
-    
-
-Sản phẩm bàn giao:
-
-- Research Report.
-    
-- 3D Model Reference.
-    
-- Concept Art.
-    
-- Environment Reference.
-    
-- Animation Reference.
-    
-- VFX Reference.
-    
+Sản phẩm bàn giao: Research Report, Competitor Analysis, Feature Analysis và Technical Research.
 
 ---
 
-## 5. QUY TRÌNH PHỐI HỢP
+## 5. GEMINI 2 — CONCEPT & VISUAL DESIGN
 
-Ví dụ: Phát triển một Monster mới.
+**Agent profile:** `01_AI_AGENTS/Agent_Gemini_Visual.md`
 
-1. **Gemini:** Nghiên cứu và tạo Concept Art, Model Reference.
-    
-2. **ChatGPT:** Phân tích thiết kế, xác định yêu cầu kỹ thuật và VFX.
-    
-3. **Claude:** Dựng Model, tạo Rig và Animation.
-    
-4. **ChatGPT:** Hỗ trợ phát triển VFX và kiểm tra hiệu ứng.
-    
-5. **Claude:** Tích hợp Model, Animation và VFX vào game.
-    
-6. **Gemini:** Đối chiếu sản phẩm với Reference ban đầu.
-    
-7. **ChatGPT:** Đánh giá tổng thể và lập báo cáo.
-    
-8. **Human Project Manager:** Kiểm tra và phê duyệt.
-    
+**Vai trò chính:** Phát triển ý tưởng và định hướng hình ảnh.
+
+Trách nhiệm:
+- Tạo concept art và visual reference cho Monster, Pet, Egg, NPC.
+- Thiết kế ý tưởng Biome, Environment, Map và props.
+- Tạo reference về hình dáng, màu sắc, vật liệu, tỷ lệ và phong cách.
+- Tạo animation pose/motion reference và VFX concept.
+- Đối chiếu sản phẩm với brief đã duyệt; không tự phê duyệt thay đổi thiết kế.
+
+Sản phẩm bàn giao: Concept Art, Model Reference, Environment Reference, Animation Reference và VFX Reference.
 
 ---
 
-## 6. NGUYÊN TẮC PHÂN CÔNG
+## 6. QUY TRÌNH PHỐI HỢP
 
-- Mỗi nhiệm vụ phải có một AI chịu trách nhiệm chính.
-    
-- AI khác có thể hỗ trợ khi được yêu cầu.
-    
-- Không tự ý ghi đè công việc của AI khác.
-    
-- Không tự ý thay đổi thiết kế đã được phê duyệt.
-    
-- Mọi sản phẩm bàn giao phải có trạng thái rõ ràng.
-    
+Ví dụ phát triển một Monster:
+1. Gemini 1 nghiên cứu chủ đề, gameplay role và tài liệu tham khảo.
+2. Gemini 2 tạo concept và visual reference dựa trên brief.
+3. ChatGPT chuyển concept đã chọn thành yêu cầu thiết kế/kỹ thuật, bao gồm VFX.
+4. Claude tạo model, rig, animation và tích hợp vào Roblox.
+5. ChatGPT kiểm tra kỹ thuật/VFX; Gemini 2 đối chiếu hình ảnh; Gemini 1 kiểm tra các giả định nghiên cứu liên quan.
+6. Human Project Manager kiểm tra và phê duyệt cuối cùng.
+
+## 7. NGUYÊN TẮC PHÂN CÔNG
+
+- Mỗi task có một AI chịu trách nhiệm chính.
+- Gemini 1 và Gemini 2 là hai vai trò riêng; không mặc định hai tài khoản đã tự đồng bộ hoặc chia sẻ bộ nhớ.
+- Cả hai Gemini phải đọc cùng Shared Brain và ghi kết quả vào đúng thư mục/workspace được giao.
+- AI khác có thể hỗ trợ khi được yêu cầu, nhưng không tự ý ghi đè công việc.
 - Mọi thay đổi quan trọng phải được cập nhật vào Shared Brain.
-    
-- Khi AI không đủ khả năng thực hiện nhiệm vụ, phải báo cáo thay vì giả vờ đã hoàn thành.
-    
+- Nếu không đủ khả năng hoặc thiếu công cụ, AI phải báo rõ thay vì giả vờ đã hoàn thành.
 
----
+## 8. CORE PRINCIPLE
 
-## 7. CORE PRINCIPLE
+**GEMINI 1 = RESEARCH & GAME ANALYSIS**
 
-**GEMINI = RESEARCH & VISUAL CONCEPT**
+**GEMINI 2 = CONCEPT & VISUAL DESIGN**
 
 **CLAUDE = DEVELOPMENT, 3D MODELING & ANIMATION**
 
